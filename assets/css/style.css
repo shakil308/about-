@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Archivo Narrow", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* common css end  */
+
+
+.section-title {
+    text-align: center;
+}
+
+.about-area {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-title .about-title {
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+
+.about-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.about-item {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.about-text {
+    text-align: center;
+    padding: 70px;
+}
+
+.about-text h3,
+.about-info h3 {
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about-text h4 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding: 0 22px;
+}
+
+.about-img img {
+    width: 100%;
+    padding-left: 50px;
+}
+
+.about-info {
+    text-align: center;
+}

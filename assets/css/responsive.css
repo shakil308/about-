@@ -1,0 +1,67 @@
+/* responsive area  */
+@media (min-width: 1401px) and (max-width: 1600px) {}
+
+
+/* XL devices ( large screens) */
+@media (min-width: 1201px) and (max-width: 1400px) {}
+
+/* Large devices (large desktops) */
+@media (min-width: 1068px) and (max-width: 1200px) {}
+
+
+/* Medium devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 1067px) {
+    .section-title .about-title {
+        font-size: 30px;
+    }
+
+    .about-text h3,
+    .about-info h3 {
+        font-size: 30px;
+    }
+
+    .about-text h4 {
+        font-size: 20px;
+    }
+
+    .about-text {
+        padding: 40px;
+    }
+
+}
+
+
+/* Small devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {}
+
+
+/* Extra Small devices (phones, portrait, up to 576px) */
+@media (max-width: 767px) {
+    .section-title .about-title {
+        font-size: 26px;
+    }
+
+    .about-text h3,
+    .about-info h3 {
+        font-size: 26px;
+    }
+
+    .about-text h4 {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .about-item {
+        grid-template-columns: 1fr;
+        padding: 0 15px;
+    }
+
+    .about-img img {
+        padding-left: 0;
+    }
+
+    .about-text {
+        padding: 25px;
+    }
+
+}
